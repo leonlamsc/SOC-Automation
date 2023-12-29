@@ -18,14 +18,10 @@ This repository serves as a comprehensive guide for the implementation of Securi
 
 ## Wazuh Server Installation
 - Install Wazuh package
-
 - `curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh && sudo bash ./wazuh-install.sh -a`
-
 - Extract Wazuh Credentials
-
 - `sudo tar -xvf wazuh-install-files.tar`
 
-- 
 ## TheHive Installation
 
 - Install Java
