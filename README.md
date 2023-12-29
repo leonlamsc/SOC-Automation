@@ -19,6 +19,9 @@ This repository serves as a comprehensive guide for the implementation of Securi
 ## Wazuh Server Installation
 - Install Wazuh package
 - `curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh && sudo bash ./wazuh-install.sh -a`
+
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/f51d93f2-b504-4b24-9374-f7f03c364db5)
+
 - Extract Wazuh Credentials
 - `sudo tar -xvf wazuh-install-files.tar`
 
@@ -29,6 +32,8 @@ This repository serves as a comprehensive guide for the implementation of Securi
 - `echo "deb [signed-by=/usr/share/keyrings/corretto.gpg] https://apt.corretto.aws stable main" |  sudo tee -a /etc/apt/sources.list.d/corretto.sources.list`
 - `sudo apt update`
 - `sudo apt install java-common java-11-amazon-corretto-jdk`
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/99be0044-8b6d-497d-887e-facbe56586e1)
+
 - `echo JAVA_HOME="/usr/lib/jvm/java-11-amazon-corretto" | sudo tee -a /etc/environment`
 - `export JAVA_HOME="/usr/lib/jvm/java-11-amazon-corretto"`
 
