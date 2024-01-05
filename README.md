@@ -73,4 +73,10 @@ Default Credentials on port 9000
 credentials are 'admin@thehive.local' with a password of 'secret'
 ## Wazuh Agents Configuration
 ## Sysmon Installation on windows 
+Sysmon Download link: [https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon](#https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
+sysmonconfig file Download: [olafhartong/sysmon-modular](#https://github.com/olafhartong/sysmon-modular.git)
+
+
 ## Acknowledgement Credit to
+olafhartong/sysmon-modular
+[MyDFIR](#https://www.youtube.com/@MyDFIR)
