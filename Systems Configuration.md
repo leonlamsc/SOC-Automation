@@ -13,7 +13,8 @@ Configure the cassandra.yaml for the listen address or port, and name
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/d59cdcce-d605-46ec-b495-99c7262c62ea)
 
 - Change the "seeds" of "seed_provider" to our thehive ip address:7000
-![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/fafe41d6-13d9-4ed5-8754-b75acea513a3)
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/0fc7cffd-7a32-409a-88cd-d14209bb7005)
+
 
 Afterwards, restart the cassandra.service
 - `systemctl stop cassandra.service`
