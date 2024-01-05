@@ -1,3 +1,4 @@
+# Table of Content
 1. [Cloud Platform for the environment](#cloud-platform-for-the-environment)
 2. [Wazuh Server Installation](#wazuh-server-installation)
 3. [TheHive Installation](#thehive-installation)
