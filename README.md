@@ -77,7 +77,10 @@ credentials are 'admin@thehive.local' with a password of 'secret'
   - 'https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon'
 - sysmonconfig file Download:
   - [olafhartong/sysmon-modular](https://github.com/olafhartong/sysmon-modular.git)
-
+  
+- Command used in Powershell.exe with Admin right:
+  - `Sysmon64.exe -i .\sysmonconfig.xml` 
+  ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/3fac0286-d0aa-43b5-a82b-cd34f6501115)
 
 ## Acknowledgement Credit to
 - [olafhartong/sysmon-modular](https://github.com/olafhartong/sysmon-modular.git)
