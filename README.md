@@ -24,6 +24,8 @@ This repository serves as a comprehensive guide for the implementation of Securi
 
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/03bfedf5-b2aa-4667-9646-0f6062121f86)
 
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/31e54afc-2a5c-45fb-9544-b2b5145992a5)
+
 
 - Extract Wazuh Credentials
 - `sudo tar -xvf wazuh-install-files.tar`
