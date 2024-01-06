@@ -24,7 +24,7 @@ Afterwards, restart the cassandra.service
 Configure the elasticsearch
 - `sudo nano /etc/elasticsearch/elasticsearch.yml`
 - enbale the "network.host" and type the IP address in there
-  ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/4a8c957c-50fc-4426-9c98-ba5cd7a57ace)
+   ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/30d91351-09d9-4b1d-b446-ab1df904b7c2)
 
   ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/cc7d7606-6bd9-4560-8464-f866e604df7e)
 
@@ -56,9 +56,12 @@ Afterwards, start the thehive
 - `systemctl enable thehive`
 
 -`nano /etc/elasticsearch/jvm.options.d/jvm.options`
--Dlog4j2.formatMsgNoLookups=true
--Xms2g
--Xmx2g
+
+Configure the elasticsearch for less usage on memory allocated to the Java Virtual Machine to prevent the crush of elasticsearch
+-`sudo nano /etc/elasticsearch/jvm.options.d/jvm.options`
+  - Dlog4j2.formatMsgNoLookups=true
+  - Xms2g
+  - Xmx2g
 
 
 
@@ -66,16 +69,16 @@ There you goooo!!!!
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/3012a93a-c293-430c-ba73-2025536305d7)
 
 ## Wazuh Agent Configuration
+- Choose "Deploy new agent"
+- Follow the steps from GUI
+  ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/f46cb67a-2bf7-4645-9ebf-0f0777bdad40)
+
+- Wazuh will give you the following commands for you to run on your client device (Windows/Linux)
+- `Invoke-WebRequest -Uri https://packages.wazuh.com/4.x/windows/wazuh-agent-4.7.1-1.msi -OutFile ${env.tmp}\wazuh-agent; msiexec.exe /i ${env.tmp}\wazuh-agent /q WAZUH_MANAGER='Your Wazuh Server IP address' WAZUH_AGENT_GROUP='default' WAZUH_AGENT_NAME='Client' WAZUH_REGISTRATION_SERVER='Your Wazuh Server IP address'`
+- `NET START WazuhSvc`
+
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/422c3e43-d249-4b84-96e8-4be124adae49)
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/518e1ed0-2839-4a9d-86e0-46d045e8845a)
 
 
-
-## Wazuh Server Installation
-- Install Wazuh package
-  - `curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh && sudo bash ./wazuh-install.sh -a`
-
-  ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/f51d93f2-b504-4b24-9374-f7f03c364db5)
-
-  ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/03bfedf5-b2aa-4667-9646-0f6062121f86)
-
-  ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/31e54afc-2a5c-45fb-9544-b2b5145992a5)
 
