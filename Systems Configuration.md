@@ -41,6 +41,7 @@ Change ownership of the "/opt/thp" directory from root to thehive:thehive
   ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/1338cc95-d154-4ccd-85f8-b93df1f159b1)
 
 COnfigure the "thehive application.conf" file.
+
 -`sudo nano /etc/thehive/application.config`
 
 - change hostname and application.basedUrl to our ip address
@@ -55,6 +56,7 @@ Afterwards, start the thehive
 - `systemctl enable thehive`
 
 There you goooo!!!!
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/3012a93a-c293-430c-ba73-2025536305d7)
 
 ## Wazuh Agent Configuration
 
