@@ -55,6 +55,13 @@ Afterwards, start the thehive
 - `systemctl start thehive`
 - `systemctl enable thehive`
 
+-`nano /etc/elasticsearch/jvm.options.d/jvm.options`
+-Dlog4j2.formatMsgNoLookups=true
+-Xms2g
+-Xmx2g
+
+
+
 There you goooo!!!!
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/3012a93a-c293-430c-ba73-2025536305d7)
 
