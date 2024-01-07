@@ -1,0 +1,11 @@
+  <!-- Log analysis for detecting powershell.exe(Operational) -->
+  <localfile>
+     <location>Microsoft-Windows-PowerShell/Operational</location>
+     <log_format>eventchannel</log_format>
+  </localfile>
+
+  <!-- Log for mimikatz -->
+  <localfile>
+    <location>Microsoft-Windows-Sysmon/Operational</location>
+    <log_format>eventchannel</log_format>
+  </localfile>
