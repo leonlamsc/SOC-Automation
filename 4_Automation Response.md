@@ -1,11 +1,12 @@
-# Shuffle
+# Detection of Mimikatz
+## Shuffle
 - Copy the "webhook URI" 
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/d636ca07-4eb5-45ae-b201-ee2b669b3947)
 
 
 
 
-# Wazuh
+## Wazuh
 `nano /var/ossec/etc/ossec.conf`
 - Alert the mimikatz event with rule -d 100002 only
 ```
@@ -43,7 +44,7 @@ We need to change the request URL of virustotal to the following
 
 
 
-# thehive
+## thehive
 - Create a new organization 
 - Create two users for the organization
   ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/4632221a-1f4e-4fcb-9301-252fbcfa117a) ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/b82ebe9d-9c41-4dc7-8c77-944308b5734b)
@@ -66,5 +67,17 @@ Alert Created
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/25bf2b66-f9fb-4f66-846a-864427bd3adf)
 
 
+Email Automation:
+
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/25321a8e-fcd2-49e3-9284-2b0c7d9e7b50)
+
+
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/b65b6101-3d00-4c15-9c03-93bf39ff7b39)
+
+# Detection of Brute Force and Active Response 
+`curl -u USER:PASSWORD -k -X GET "https:/WAZUH-IP:55000/Security/user/authenticate?raw=true"`
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/0a91f713-095a-4aaf-8e5d-31604e34f45d)
+
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/196c3218-b664-4967-b66e-8f128132ab4a)
 
 
