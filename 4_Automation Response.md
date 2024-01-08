@@ -80,4 +80,12 @@ Email Automation:
 
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/196c3218-b664-4967-b66e-8f128132ab4a)
 
+API configuration
+- Modify /usr/share/wazuh-dashboard/data/wazuh/config/wazuh.yml to set the connection information.
+-` curl -u <wazuh>:<password> -k -X GET "https://<wazuh IP>/security/user/authenticate?raw=true"`
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/940a4b54-6931-4ffa-b1e3-50b49d33fde3)
+
+- Put the above command to the "Statement" of "Get-API"
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/c285f345-8815-44d6-99aa-f8d010c82314)
+
 
