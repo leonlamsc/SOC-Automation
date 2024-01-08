@@ -44,3 +44,27 @@ We need to change the request URL of virustotal to the following
 
 
 # thehive
+- Create a new organization 
+- Create two users for the organization
+  ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/4632221a-1f4e-4fcb-9301-252fbcfa117a) ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/b82ebe9d-9c41-4dc7-8c77-944308b5734b)
+
+-Create a API key for the "SOAR"
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/731ca882-9dff-4c38-bb48-3c3a23a06805)
+
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/14eaed6c-f473-4be7-9b58-3ef5ecf70ff8)
+
+- Configure thehive in shuffle
+- ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/860d08ab-0b0d-41dc-b4b7-8f3a79cee0c3)
+- ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/ccfd3326-19a3-4c4a-9696-4ab58bbd2b9c)
+- ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/4a6acbf0-12b7-47f6-855a-36508bc4a757)
+- ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/0b3f1068-4324-4fb1-8d34-e266cb83fd19)
+
+- Allow the incoming traffic from any IPv4 port 9000 in the Digital Ocean
+- ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/74419b43-e516-4bca-b4ff-90679a0884be)
+
+Alert Created
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/25bf2b66-f9fb-4f66-846a-864427bd3adf)
+
+
+
+
