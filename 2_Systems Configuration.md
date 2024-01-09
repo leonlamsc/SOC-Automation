@@ -1,8 +1,3 @@
-# Table of Content
-1. [TheHive Configuration](#thehive-installation)
-2. [Wazuh Agent Configuration](#wazuh-agent-configuration) 
-
-
 ## TheHive Configuration
 Configure the cassandra.yaml for the listen address or port, and name
 - `sudo nano /etc/cassandra/cassandra.yaml`
