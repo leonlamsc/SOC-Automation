@@ -4,9 +4,8 @@
 1. [Introduction](#introduction)
 2. [Wazuh Server Event Logs](#wazuh-server-event-logs)
 3. [TheHive Installation](#thehive-alert)
-4. [Wazuh Agents Configuration](#wazuh-agents-configuration)
-5. [Sysmon Installation on Windows](#sysmon-installation-on-windows)
-6. [Acknowledgment Credit to](#acknowledgment-credit-to)
+4. [Credit to](#credit-to)
+
 
 ## Introduction 
 This repository serves as a comprehensive guide for the implementation of Security Operations Center (SOC) automation using Wazuh and Security Orchestration, Automation, and Response (SOAR) frameworks within a controlled laboratory environment. The content herein outlines the procedural steps and practices essential for establishing a practical laboratory experience in SOC automation.
@@ -22,7 +21,7 @@ This repository serves as a comprehensive guide for the implementation of Securi
 ## TheHive Alert 
 
 
-## Acknowledgement Credit to
+## Credit to
 - [olafhartong/sysmon-modular](https://github.com/olafhartong/sysmon-modular.git)
 - [Mimikatz](https://github.com/gentilkiwi/mimikatz/releases/tag/2.2.0-20220919)
 - [MyDFIR](https://www.youtube.com/@MyDFIR)
