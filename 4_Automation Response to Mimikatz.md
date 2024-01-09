@@ -72,6 +72,7 @@ We need to change the request URL of virustotal to the following
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/25321a8e-fcd2-49e3-9284-2b0c7d9e7b50)
 
 - Email Alert created
+
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/b65b6101-3d00-4c15-9c03-93bf39ff7b39)
 
 
