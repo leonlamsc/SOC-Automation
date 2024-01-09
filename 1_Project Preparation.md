@@ -2,9 +2,8 @@
 1. [Cloud Platform for the environment](#cloud-platform-for-the-environment)
 2. [Wazuh Server Installation](#wazuh-server-installation)
 3. [TheHive Installation](#thehive-installation)
-4. [Wazuh Agents Configuration](#wazuh-agents-configuration)
-5. [Sysmon Installation on Windows](#sysmon-installation-on-windows)
-6. [Acknowledgment Credit to](#acknowledgment-credit-to)
+4. [Sysmon Installation on Windows](#sysmon-installation-on-windows)
+5. [Acknowledgment Credit to](#acknowledgment-credit-to)
 
 ## Cloud Platform for the environment
 Digital Ocean
@@ -62,7 +61,7 @@ Digital Ocean
 
 Default Credentials on port 9000
 credentials are 'admin@thehive.local' with a password of 'secret'
-## Wazuh Agents Configuration
+
 ## Sysmon Installation on windows 
 - Sysmon Download link:
   - 'https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon'
