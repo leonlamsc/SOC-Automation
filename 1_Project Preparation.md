@@ -1,10 +1,3 @@
-# Table of Content
-1. [Cloud Platform for the environment](#cloud-platform-for-the-environment)
-2. [Wazuh Server Installation](#wazuh-server-installation)
-3. [TheHive Installation](#thehive-installation)
-4. [Sysmon Installation on Windows](#sysmon-installation-on-windows)
-5. [Acknowledgment Credit to](#acknowledgment-credit-to)
-
 ## Cloud Platform for the environment
 Digital Ocean
 
