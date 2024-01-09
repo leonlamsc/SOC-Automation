@@ -2,8 +2,8 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Wazuh Server Installation](#wazuh-server-installation)
-3. [TheHive Installation](#thehive-installation)
+2. [Wazuh Server Event Logs](#wazuh-server-event-logs)
+3. [TheHive Installation](#thehive-alert)
 4. [Wazuh Agents Configuration](#wazuh-agents-configuration)
 5. [Sysmon Installation on Windows](#sysmon-installation-on-windows)
 6. [Acknowledgment Credit to](#acknowledgment-credit-to)
@@ -17,22 +17,12 @@ This repository serves as a comprehensive guide for the implementation of Securi
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/fce1b9f1-f5f4-4cf1-8cb6-fb40a81bd9dc)
 
 ## Wazuh Server Event Logs
-- Install Wazuh package
-  - `curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh && sudo bash ./wazuh-install.sh -a`
 
-  ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/f51d93f2-b504-4b24-9374-f7f03c364db5)
-
-  ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/03bfedf5-b2aa-4667-9646-0f6062121f86)
-
-  ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/31e54afc-2a5c-45fb-9544-b2b5145992a5)
-
-
-- Extract Wazuh Credentials
-- `sudo tar -xvf wazuh-install-files.tar`
 
 ## TheHive Alert 
 
 
 ## Acknowledgement Credit to
 - [olafhartong/sysmon-modular](https://github.com/olafhartong/sysmon-modular.git)
+- [Mimikatz](https://github.com/gentilkiwi/mimikatz/releases/tag/2.2.0-20220919)
 - [MyDFIR](https://www.youtube.com/@MyDFIR)
