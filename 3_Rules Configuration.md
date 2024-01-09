@@ -1,4 +1,4 @@
-# In Windows agent:
+## In Windows agent:
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/1dd8093e-5e1c-47ae-bd59-9356d2ee2ae8)
 
 
@@ -7,7 +7,7 @@
 
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/f8923236-28e2-4798-903f-8ba5efb26ee1)
 
-# In Wazuh Manager
+## In Wazuh Manager
 -`cp /var/ossec/etc/ossec.conf ~/ossec-backup.conf`
 -`sudo nano /var/ossec/etc/ossec.conf`
 - change 'logall' and 'logall_json' from no to yes
@@ -16,7 +16,7 @@
 
 - Restart Wazuh manager
 
-Make the Wazuh to injest the logs in archives
+## Make the Wazuh to injest the logs in archives
 - `nano /etc/filebeat/filebeat.yml`
 - change the 'archives' to true
   
@@ -24,7 +24,7 @@ Make the Wazuh to injest the logs in archives
 
 - Restart filebeat
 
-Create index pattern for the archives
+## Create index pattern for the archives
 - Go to 'Stack Management', then 'Index Pattern'
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/b009d427-166f-466c-b30f-bc15aaac925a)
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/52770739-f782-4942-9a85-e9d07c76335e)
@@ -38,22 +38,9 @@ Create index pattern for the archives
 - Search mimikatz in Wazuh manager
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/4e23434e-03b1-4903-b5a4-1e6f51f322c9)
 
-Configure the rule based on the original name of the file
+## Configure the rule based on the original name of the file
 - Locate 'Rules' in dashboard, and Select "Manage rules files"
-- Copy one of the rule from '0800-sysmon_id_1.xml'
-  - Example:
-    ```
-    <rule id="92000" level="4">
-    <if_group>sysmon_event1</if_group>
-    <field name="win.eventdata.parentImage" type="pcre2">(?i)\\(c|w)script\.exe</field>
-    <options>no_full_log</options>
-    <description>Scripting interpreter spawned a new process</description>
-    <mitre>
-      <id>T1059.005</id>
-    </mitre>
-    </rule>
-
-- Click 'Customer rules' and edit the 'local_rules.xml'
+- Click 'Custom rules' and edit the 'local_rules.xml'
 - Add the following rule in the xml, Pay make sure the originalFileName is correct becasue it is case-sensitive
   - ```
     <rule id="100002" level="15">
@@ -69,7 +56,7 @@ Configure the rule based on the original name of the file
 
 - Save it and restart Wazuh
 
-Result:
+## Result:
 - Run mimikatz with a new name "HeyHeyYo.exe" in windows
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/29819ef2-72ba-4aac-8b1a-9b248bfb4f66)
 - Wazuh detected the execution
