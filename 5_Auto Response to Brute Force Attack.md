@@ -38,6 +38,25 @@
 
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/16e3aab0-f814-48ce-b834-e7bd1cad9469)
 
-## Result 
+## Automation Response  
 - Final Workflow
-- ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/ae4bb08a-e32d-43f0-8e2f-063dcd162d67)
+  
+  ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/ae4bb08a-e32d-43f0-8e2f-063dcd162d67)
+
+- Event in Wazuh captured
+
+  ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/a9ec1200-6021-4157-b2e2-19805f47f1c8)
+
+- Email Alert for Brute Force Event and ask for the response "Block the ip or not"
+  
+  ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/e35b6ce2-033b-4345-8714-257bb08673a7)
+
+- Alert created in thehive
+
+  ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/6601f4a0-f7df-45b4-877c-b080260ef5a6)
+
+- All IP addresses of Brute Force are blocked  
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/20d8598c-4b7a-4010-98e3-454c841e4ea2)
+
+![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/877046db-c66a-4da8-9dc6-a49b2c5cfc0b)
+
