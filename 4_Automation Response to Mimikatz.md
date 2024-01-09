@@ -30,8 +30,8 @@ Extract SHA256 Hash From File
 3. Check Reputation Score w/VirusTotal
 4. Send Details To TheHive To Create Alert
 
--extract the hash value from the argument by regex pattern
-`SHA256=([A-Fa-f0-9]{64})` 
+- extract the hash value from the argument by regex pattern
+  `SHA256=([A-Fa-f0-9]{64})` 
 
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/afdd5fcc-2769-4d22-a19f-d8253c0a1277)
 
@@ -49,7 +49,7 @@ We need to change the request URL of virustotal to the following
 - Create two users for the organization
   ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/4632221a-1f4e-4fcb-9301-252fbcfa117a) ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/b82ebe9d-9c41-4dc7-8c77-944308b5734b)
 
--Create a API key for the "SOAR"
+- Create a API key for the "SOAR"
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/731ca882-9dff-4c38-bb48-3c3a23a06805)
 
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/14eaed6c-f473-4be7-9b58-3ef5ecf70ff8)
@@ -63,15 +63,15 @@ We need to change the request URL of virustotal to the following
 - Allow the incoming traffic from any IPv4 port 9000 in the Digital Ocean
 - ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/74419b43-e516-4bca-b4ff-90679a0884be)
 
-Alert Created
+## Alert Created
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/25bf2b66-f9fb-4f66-846a-864427bd3adf)
 
 
-Email Automation:
+## Email Automation:
 
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/25321a8e-fcd2-49e3-9284-2b0c7d9e7b50)
 
-
+- Email Alert created
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/b65b6101-3d00-4c15-9c03-93bf39ff7b39)
 
 
