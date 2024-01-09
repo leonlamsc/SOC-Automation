@@ -7,7 +7,7 @@
 
 
 ## Wazuh
-`nano /var/ossec/etc/ossec.conf`
+- `nano /var/ossec/etc/ossec.conf`
 - Alert the mimikatz event with rule -d 100002 only
 ```
   <integration>
@@ -20,26 +20,27 @@
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/1909f3ef-0784-43b5-8b1e-fab1fc039ab1)
 
 
--Restart the wazuh
+- Restart the wazuh
 
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/0967db9a-e7c4-49c3-aeec-1b4afdde7d03)
 
-1 Mimikatz Alert Sent to Shuffle
-2 Shuffle Receives Mimikatz Alert
-Extract SHA256 Hash From File
-3. Check Reputation Score w/VirusTotal
-4. Send Details To TheHive To Create Alert
+1. Mimikatz Alert Sent to Shuffle
+2. Shuffle Receives Mimikatz Alert
+    - Extract SHA256 Hash From File
+4. Check Reputation Score w/VirusTotal
+5. Send Details To TheHive To Create Alert
 
 - extract the hash value from the argument by regex pattern
   `SHA256=([A-Fa-f0-9]{64})` 
 
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/afdd5fcc-2769-4d22-a19f-d8253c0a1277)
 
-VirusTotal API key and configure virustotal in Shuffle
+## VirusTotal API key and configure virustotal in Shuffle
 
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/3058d738-20b3-498e-8ed6-157f65beaec4)
 
-We need to change the request URL of virustotal to the following
+- We need to change the request URL of virustotal to the following
+
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/b65f6064-e48f-4f7b-a971-5100593277a2)
 
 
@@ -49,7 +50,7 @@ We need to change the request URL of virustotal to the following
 - Create two users for the organization
   ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/4632221a-1f4e-4fcb-9301-252fbcfa117a) ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/b82ebe9d-9c41-4dc7-8c77-944308b5734b)
 
-- Create a API key for the "SOAR"
+- Create an API key for the "SOAR"
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/731ca882-9dff-4c38-bb48-3c3a23a06805)
 
 ![image](https://github.com/leonlamsc/Wazuh-with-SOAR/assets/140391766/14eaed6c-f473-4be7-9b58-3ef5ecf70ff8)
