@@ -11,7 +11,7 @@
 
 
 ## Introduction 
-This repository serves as a comprehensive guide for the implementation of Security Operations Center (SOC) automation using Wazuh and Security Orchestration, Automation, and Response (SOAR) frameworks within a controlled laboratory environment. The content herein outlines the procedural steps and practices essential for establishing a practical laboratory experience in SOC automation.
+This repository serves as a comprehensive guide for the implementation of Security Operations Center (SOC) automation using Wazuh, thehive, Shuffle and Security Orchestration, Automation, and Response (SOAR) frameworks within a controlled laboratory environment. The content herein outlines the procedural steps and practices essential for establishing a practical laboratory experience in SOC automation.
 
 All of the lab procedures are documented in the .md files.
 ## SOC Automation design
